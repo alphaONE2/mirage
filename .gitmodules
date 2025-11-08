@@ -1,0 +1,10 @@
+[submodule "extern/reshade"]
+	path = extern/reshade
+	url = https://github.com/crosire/reshade.git
+[submodule "extern/imgui"]
+	path = extern/imgui
+	url = https://github.com/ocornut/imgui.git
+	branch = docking
+[submodule "extern/ini.h"]
+	path = extern/ini.h
+	url = https://github.com/giosali/ini.h.git

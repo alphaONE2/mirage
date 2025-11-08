@@ -1,0 +1,24 @@
+---
+InheritParentConfig: false
+Checks:
+  - -*
+  - bugprone-*
+  - cert-*
+  - clang-analyzer-*
+  - concurrency-*
+  - cppcoreguidelines-*
+  - misc-*
+  - -misc-include-cleaner
+  - -misc-use-internal-linkage
+  - modernize-*
+  - -modernize-use-trailing-return-type
+  - performance-*
+  - portability-*
+  - readability-*
+  - -readability-qualified-auto
+  - *-pro-type-reinterpret-cast
+  - *-no-int-to-ptr
+  - *-easily-swappable-parameters
+CheckOptions:
+  readability-function-cognitive-complexity.IgnoreMacros: true
+FormatStyle: none

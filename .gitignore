@@ -1,0 +1,7 @@
+# Build directories
+/build/
+
+# IDE directories
+/.idea/
+/.vs/
+/.vscode/
